@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         if (s == null || "".equals(s)) {
             return false;
         } else {
+            Log.e(TAG, "checkString: s=" + s);
             return "ABC".equals(s);
         }
     }
