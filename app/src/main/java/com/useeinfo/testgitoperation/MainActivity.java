@@ -22,10 +22,9 @@ public class MainActivity extends AppCompatActivity {
         userModel.setName("leo");
 
         TextView tv = null;
-        tv.setText(userModel.getName());
-
-
-        Log.e(TAG, "onCreate: 22222222");
+        if (tv != null) {
+            tv.setText(userModel.getName());
+        }
 
     }
 
