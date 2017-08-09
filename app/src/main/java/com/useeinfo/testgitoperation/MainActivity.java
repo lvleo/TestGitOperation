@@ -33,10 +33,10 @@ public class MainActivity extends AppCompatActivity {
      * @return
      */
     private boolean checkString(String s) {
+        Log.e(TAG, "checkString: s=" + s);
         if (s == null || "".equals(s)) {
             return false;
         } else {
-            Log.e(TAG, "checkString: s=" + s);
             return "ABC".equals(s);
         }
     }
