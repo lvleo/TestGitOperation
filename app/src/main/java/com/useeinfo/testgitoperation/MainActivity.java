@@ -24,6 +24,9 @@ public class MainActivity extends AppCompatActivity {
         TextView tv = null;
         tv.setText(userModel.getName());
 
+
+        Log.e(TAG, "onCreate: 22222222");
+
     }
 
 }
