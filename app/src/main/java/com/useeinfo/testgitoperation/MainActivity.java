@@ -26,4 +26,17 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /**
+     * @param s
+     * @return
+     */
+    private boolean checkString(String s) {
+        if (s == null || "".equals(s)) {
+            return false;
+        } else {
+            return "ABC".equals(s);
+        }
+    }
+
+
 }
