@@ -22,7 +22,9 @@ public class MainActivity extends AppCompatActivity {
         userModel.setName("leo");
 
         TextView tv = null;
-        tv.setText(userModel.getName());
+        if (tv != null) {
+            tv.setText(userModel.getName());
+        }
 
     }
 
