@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         Log.e(TAG, "onCreate: 666666");
 
 
-        Intent intent = new Intent(this, MainActivity.class);
+        Intent intent = new Intent(this, TestActivity.class);
 
 
     }
