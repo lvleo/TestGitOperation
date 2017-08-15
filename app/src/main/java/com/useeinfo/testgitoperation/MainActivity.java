@@ -1,5 +1,6 @@
 package com.useeinfo.testgitoperation;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -25,6 +26,12 @@ public class MainActivity extends AppCompatActivity {
         if (tv != null) {
             tv.setText(userModel.getName());
         }
+
+        Log.e(TAG, "onCreate: 666666");
+
+
+        Intent intent = new Intent(this, MainActivity.class);
+
 
     }
 
